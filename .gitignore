@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ambiente local
+.env
+.env.*
+
+# Banco de dados locais
+*.db
+*.sqlite3
+/data/
+
+# Streamlit
+.streamlit/
+
+# IDE e sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Testes / artefatos
+.pytest_cache/
+coverage/
+htmlcov/
